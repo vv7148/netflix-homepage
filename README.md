@@ -2,12 +2,14 @@
 
 This project is a simple Netflix clone created using HTML and CSS. It demonstrates how to structure and style a basic streaming platform interface resembling the Netflix website. Please note that this is a front-end-only project and does not have actual functionality or real movie data.
 
-Features
+Features:
+
 ✨ Responsive design for various screen sizes.
 🎥 Display a list of movies or TV shows.
 ⌨ Clean and organized code structure.
 🎬 Hover effects on movie posters.
-Techniques Used
+Techniques Used:
+
 HTML5 for structuring the webpage.
 CSS3 for styling and layout.
 CSS animations and transitions for interactive effects.

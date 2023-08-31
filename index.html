@@ -3,41 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Netflix Homepage</title>
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link your CSS file -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: #141414;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .main-content {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .main-content h2 {
+            margin-bottom: 20px;
+        }
+
+        .main-content p {
+            margin-bottom: 40px;
+        }
+
+        .footer {
+            background-color: #141414;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+
+        /* Additional styles can be placed in the linked style.css file */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="netflix-logo.png" alt="Netflix Logo">
-            </div>
-            <div class="nav-links">
-                <a href="#">Home</a>
-                <a href="#">TV Shows</a>
-                <a href="#">Movies</a>
-                <a href="#">New & Popular</a>
-                <!-- Add more navigation links as needed -->
-            </div>
-        </nav>
-    </header>
-
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Watch Unlimited Movies and TV Shows.</h1>
-                <p>Subscribe now to enjoy unlimited streaming.</p>
-                <button class="subscribe-button">Subscribe</button>
-            </div>
-        </section>
-
-        <section class="featured">
-            <!-- Add featured movies/shows here -->
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Netflix</p>
-    </footer>
+    <div class="header">
+        <h1>Welcome to Netflix</h1>
+    </div>
+    <div class="main-content">
+        <h2>Popular Movies and Shows</h2>
+        <p>Explore a wide range of popular movies and TV shows.</p>
+        <img src="logo.png" alt="Image 1"> <!-- Replace with your actual image paths -->
+        <img src="w.png" alt="Image 2">
+        <!-- Add more image tags as needed -->
+    </div>
+    <div class="footer">
+        <p>&copy; 2023 Netflix Clone. All rights reserved.</p>
+    </div>
 </body>
 </html>
